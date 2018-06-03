@@ -1,0 +1,173 @@
+/*Page création de tickets*/
+/*HEADER*/
+.header {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 90px;
+    line-height: 70px;
+    background-color: #202529;
+    top: 0;
+}
+
+.header .header-logo {
+    width: 90px;
+    float: left;
+    margin-left: 30px;
+}
+
+.header .header-menu {
+    float: right;
+    margin-right: 30px;
+}
+
+.header .header-menu a {
+    color: #ffffffff;
+}
+
+.header .header-menu a:hover {
+    color: #50A6C2;
+}
+
+/*CONTENU*/
+#categorie {
+    border: 2px solid #C94438;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#msg_confirmation {
+    text-align: center;
+}
+#form-infos {
+    visibility: hidden;
+    border: 2px solid #C94438;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.about {
+    margin-top: 20px;
+}
+.about .button {
+    width: 260px;
+    height: 80px;
+}
+
+.form-ticket {
+    margin-right: 30px;
+}
+.control {
+    text-align: center;
+}
+
+/*FOOTER*/
+.footer {
+    width: 100%;
+    height: 70px;
+    line-height: 30px;
+    background-color: #202529;
+    margin: 0;
+
+}
+.footer .footer-informations {
+    text-align: center;
+    color: #ffffffff;
+}
+
+/*Page de l'admin*/
+
+.loginbox {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    width: 350px;
+    margin-left: -175px;
+    box-sizing: border-box;
+    background: transparent;
+    box-shadow: 0 10px 20px rgba(0,0,0,.5);
+    border-radius: 5px;
+}
+
+.cadre {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    background: rgba(255,255,255,.1);
+    border-radius: 5px;
+}
+
+#msg_connecte {
+    color: #ffffffff;
+    font-size: 20px;
+    float: left;
+    padding-right: 30px;
+}
+
+#btn_deconnexion {
+    font-size: 20px;
+    float: right;
+}
+
+#btn_deconnexion a {
+    color: #50A6C2;
+}
+
+#btn_deconnexion a:hover {
+    color: #ffffffff;
+}
+
+#etat-tickets {
+    border: 2px solid #2F2F2F;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+#tableau-tickets {
+    border: 2px solid #50A6C2;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.id-ticket {
+    padding-right: 120px;
+}
+
+.date-ticket {
+    padding-right : 180px;
+}
+
+.infos-msg {
+    padding-right: 400px;
+}
+
+#detail {
+    border: 2px solid #50A6C2;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#detail_1 td{
+    text-align: center;
+}
+
+#btn_chg_etat {
+    margin: 15px;
+}
+
+#btn_chg {
+    margin-bottom : 10px;
+    width: 150%;
+    height: 40px;
+}
+
+.control #btn_reponse {
+    margin: 15px;
+}
