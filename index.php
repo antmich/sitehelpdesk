@@ -4,6 +4,7 @@ include_once("includes/fonctions.php");
 <!DOCTYPE HTML>
 <html>
     <!--head-->
+    <!--Test GIT-->
     <head>
         <?php include ("includes/head.php");?>
     </head>
